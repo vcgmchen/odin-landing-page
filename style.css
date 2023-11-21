@@ -1,0 +1,9 @@
+/* Both universal selector & body selector can be used to apply font styling to the whole page. */
+/* Body styles may or may not be inherited by children.
+   Whereas * selects every single element. 
+*/
+/* I used _____ because ... */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
