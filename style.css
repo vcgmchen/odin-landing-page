@@ -53,8 +53,7 @@ Info header text:           36px extra-bold
 Quote text                  36px light italic
 -------------------------------------------------------------*/
 
-/* Header section styling */
-.header{background-color: #1f2937;}
+/* Hero section styling (includes header) */
 .header .logo {
     color: #f9faf8;
     font-size: 24px;
@@ -65,7 +64,6 @@ Quote text                  36px light italic
     text-decoration: none;
 }
 
-/* Hero section styling */
 .hero{background-color: #1f2937;}
 .hero h1 {
     color: #f9faf8;
