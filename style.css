@@ -5,6 +5,8 @@
 /* I used _____ because ... */
 body {
     font-family: 'Roboto', sans-serif;
+    /* extend section color to the edge of the page */
+    margin: auto; 
 }
 
 /*-------------------------------------------------------------
@@ -74,6 +76,12 @@ Quote text                  36px light italic
     color: #e5e7eb;
     font-size: 18px;
 }
+.hero-image {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 15%
+}
 /* Info section styling */
 .info {text-align: center;}
 
@@ -81,6 +89,15 @@ Quote text                  36px light italic
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
+}
+
+.info-image {
+    height: 100px;
+    width: 100px;
+    border: solid #3882f8;
+    border-radius: 10px;
+    /* center the div*/
+    margin: auto;
 }
 
 /* Quote section styling */
@@ -97,19 +114,34 @@ Quote text                  36px light italic
 
 .quote-author {
     text-align: right;
+    font-weight: bold;
 }
 
 /* CTA section styling */
-.cta{ background-color: #3882f8;}
+.cta-banner {
+    background-color: #3882f8;
+    border-radius: 3px;
+    color: white;
+}
 button {
     background-color: #3882f8;
     text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.cta button {
+    border: solid white 2px;
 }
 
 /* Footer section styling */
 .footer {
     background-color: #1f2937;
     text-align: center;
+    color: white;
 }
 
 
