@@ -55,25 +55,32 @@ Quote text                  36px light italic
 .header{background-color: #1f2937;}
 .header .logo {
     color: #f9faf8;
-    ;
+    font-size: 24px;
 }
 .header a {
     color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 /* Hero section styling */
 .hero{background-color: #1f2937;}
 .hero h1 {
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
 }
 .hero p {
     color: #e5e7eb;
+    font-size: 18px;
 }
 /* Info section styling */
 .info {}
 
 .info h2 {
     color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 /* Quote section styling */
@@ -83,6 +90,9 @@ Quote text                  36px light italic
 
 .quote-block {
     color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
 }
 
 /* CTA section styling */
@@ -90,7 +100,7 @@ Quote text                  36px light italic
 button {background-color: #3882f8;}
 
 /* Footer section styling */
-.footer{background-color: #1f2937}
+.footer{background-color: #1f2937;}
 
 
 
