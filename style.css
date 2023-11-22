@@ -5,8 +5,13 @@
 /* I used _____ because ... */
 body {
     font-family: 'Roboto', sans-serif;
-    /* extend section color to the edge of the page */
+    /* removes whitespace between main div sections and end of page 
+    i.e. extend section color to the edge of the page */
     margin: auto; 
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /*-------------------------------------------------------------
@@ -54,17 +59,32 @@ Quote text                  36px light italic
 -------------------------------------------------------------*/
 
 /* Hero section styling (includes header) */
-.header .logo {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-container .logo {
     color: #f9faf8;
     font-size: 24px;
 }
-.header a {
+.header-container a {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
 }
+.header-nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 
-.hero{background-color: #1f2937;}
+.hero{
+    background-color: #1f2937;
+    padding: 20px 10%;
+}
+.hero-container {
+    display: flex;
+}
 .hero h1 {
     color: #f9faf8;
     font-size: 48px;
@@ -101,6 +121,8 @@ Quote text                  36px light italic
 /* Quote section styling */
 .quote {
     background-color: #e5e7eb; 
+    /* Set top & bottom padding to constant; L&R padding to a percentage of total page width */
+    padding: 100px 25%;
 }
 
 .quote-block {
@@ -120,6 +142,10 @@ Quote text                  36px light italic
     background-color: #3882f8;
     border-radius: 3px;
     color: white;
+    /* Consistent 75% width */
+    width: 75%;
+    margin: 50px auto;
+    padding: 20px 5%;
 }
 button {
     background-color: #3882f8;
