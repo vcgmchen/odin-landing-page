@@ -77,6 +77,11 @@ Quote text                  36px light italic
     justify-content: right;
     align-items: center;
 }
+.header-nav a {
+    /* pad left side only*/
+    padding: 0 0 0 10px;
+    text-align: right;
+}
 
 .hero{
     background-color: #1f2937;
