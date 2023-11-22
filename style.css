@@ -75,7 +75,7 @@ Quote text                  36px light italic
     font-size: 18px;
 }
 /* Info section styling */
-.info {}
+.info {text-align: center;}
 
 .info h2 {
     color: #1f2937;
@@ -95,12 +95,22 @@ Quote text                  36px light italic
     font-style: italic;
 }
 
+.quote-author {
+    text-align: right;
+}
+
 /* CTA section styling */
 .cta{ background-color: #3882f8;}
-button {background-color: #3882f8;}
+button {
+    background-color: #3882f8;
+    text-align: center;
+}
 
 /* Footer section styling */
-.footer{background-color: #1f2937;}
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+}
 
 
 
