@@ -51,6 +51,47 @@ Info header text:           36px extra-bold
 Quote text                  36px light italic
 -------------------------------------------------------------*/
 
+/* Header section styling */
+.header{background-color: #1f2937;}
+.header .logo {
+    color: #f9faf8;
+    ;
+}
+.header a {
+    color: #e5e7eb;
+}
+
+/* Hero section styling */
+.hero{background-color: #1f2937;}
+.hero h1 {
+    color: #f9faf8;
+}
+.hero p {
+    color: #e5e7eb;
+}
+/* Info section styling */
+.info {}
+
+.info h2 {
+    color: #1f2937;
+}
+
+/* Quote section styling */
+.quote {
+    background-color: #e5e7eb; 
+}
+
+.quote-block {
+    color: #1f2937;
+}
+
+/* CTA section styling */
+.cta{ background-color: #3882f8;}
+button {background-color: #3882f8;}
+
+/* Footer section styling */
+.footer{background-color: #1f2937}
+
 
 
 
