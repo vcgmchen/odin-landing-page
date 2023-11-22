@@ -7,3 +7,51 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*-------------------------------------------------------------
+[Color codes]
+
+# Dark purple:            #1f2937 
+- Header background
+- Hero background
+- Footer background
+- Info header text
+- Quote text
+
+# White:                  #f9faf8
+- Header logo text
+- Hero main text
+
+# Light Grey:             #e5e7eb 
+- Header link text
+- Hero secondary text
+- Quote background
+
+# Blue:                   #3882f8 
+- CTA button
+- Info card border
+- CTA banner
+-------------------------------------------------------------*/
+/*-------------------------------------
+* {
+    color: #1f2937;
+    color: #f9faf8;
+    color: #e5e7eb; 
+    color: #3882f8; 
+}
+-------------------------------------*/
+/*-------------------------------------------------------------
+[Typography]
+
+Body:                       Roboto 
+Header logo text:           24px 
+Header links text:          18px
+Hero main text:             48px extra-bold
+Hero secondary text:        18px
+Info header text:           36px extra-bold
+Quote text                  36px light italic
+-------------------------------------------------------------*/
+
+
+
+
+
