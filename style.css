@@ -1,23 +1,3 @@
-/* Both universal selector & body selector can be used to apply font styling to the whole page. */
-/* Body styles may or may not be inherited by children.
-   Whereas * selects every single element. 
-*/
-/* I used _____ because ... */
-body {
-    font-family: 'Roboto', sans-serif;
-    /* removes whitespace between main div sections and end of page 
-    i.e. extend section color to the edge of the page */
-    margin: auto; 
-    
-    /* flex to remove row gaps between divs */
-    display: flex;
-    flex-direction: column;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 /*-------------------------------------------------------------
 [Color codes]
 
@@ -42,14 +22,6 @@ body {
 - Info card border
 - CTA banner
 -------------------------------------------------------------*/
-/*-------------------------------------
-* {
-    color: #1f2937;
-    color: #f9faf8;
-    color: #e5e7eb; 
-    color: #3882f8; 
-}
--------------------------------------*/
 /*-------------------------------------------------------------
 [Typography]
 
@@ -61,6 +33,27 @@ Hero secondary text:        18px
 Info header text:           36px extra-bold
 Quote text                  36px light italic
 -------------------------------------------------------------*/
+
+/* Both universal selector & body selector can be used to apply font styling to the whole page. */
+/* Body styles may or may not be inherited by children.
+   Whereas * selects every single element. 
+*/
+/* I used _____ because ... */
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* removes whitespace between main div sections and end of page 
+    i.e. extend section color to the edge of the page */
+    margin: auto; 
+    /* flex to remove row gaps between divs */
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
 
 /* Hero section styling (includes header) */
 .hero {
@@ -74,9 +67,7 @@ Quote text                  36px light italic
 .header-container {
     display: flex;
     justify-content: space-between;
-                                        /* background-color: red; */
-                                        width: 1000px;
-                                        
+        width: 1000px;                                        
 }
 .header-container .logo {
     color: #f9faf8;
@@ -101,19 +92,16 @@ Quote text                  36px light italic
 /* Hero */
 .hero{
     background-color: #1f2937;
-                                        padding: 20px 10%;
-                                        /* background-color: cyan; */
+        padding: 20px 10%;
 }
 .hero-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px 0;
-                                        /* background-color: pink; */
-                                        width: 1000px;
-                                        display: flex;
-                                        justify-content: center;
-
+        width: 1000px;
+        display: flex;
+        justify-content: center;
 }
 .hero-text {
     width: 50%;
@@ -147,7 +135,6 @@ Quote text                  36px light italic
 /* Info section styling */
 .info {
     text-align: center;
-    /* background-color: yellow; */
     position: relative;
     z-index: 1;
 }
@@ -156,7 +143,6 @@ Quote text                  36px light italic
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
-    /* background-color: red; */
     /* remove vertical space contribution of h2 by layering it over .info */
     position: absolute;
     z-index: 10;
@@ -178,14 +164,11 @@ Quote text                  36px light italic
     /* equal vertical margins */
     margin: 120px auto;
 }
-
 /* instead of hardcoding image size, code the card size? */
     /* doesn't work: the div collapses in height */
-
 .info-card {
     width: 150px;
 }
-
 .info-image {
     height: 150px;
     width: 150px;
@@ -201,23 +184,22 @@ Quote text                  36px light italic
     /* Set top & bottom padding to constant; L&R padding to a percentage of total page width */
     padding: 100px 25%;
     margin: 0;
-                                /* To center quote-container */
-                                display: flex;
-                                justify-content: center;
+    /* To center quote-container */
+    display: flex;
+    justify-content: center;
 }
-
-                                .quote-container {
-                                    width: 800px;
-                                    /* background-color: yellow; */
-                                    justify-content: center;
-                                }
+    .quote-container {
+        width: 800px;
+        /* background-color: yellow; */
+        justify-content: center;
+    }
 
 .quote-block {
     color: #1f2937;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-                                            /* width: 1000px; */
+        /* width: 1000px; */
 }
 
 .quote-author {
@@ -236,7 +218,6 @@ Quote text                  36px light italic
     padding: 20px 5%;
     /* Flex display */
     display: flex;
-
 }
 
 .cta-text {
@@ -275,8 +256,3 @@ button {
     color: white;
     padding: 10px; 
 }
-
-
-
-
-
