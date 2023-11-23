@@ -8,6 +8,10 @@ body {
     /* removes whitespace between main div sections and end of page 
     i.e. extend section color to the edge of the page */
     margin: auto; 
+    
+    /* flex to remove row gaps between divs */
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -126,23 +130,37 @@ Quote text                  36px light italic
 /* Info section styling */
 .info {
     text-align: center;
+    /* background-color: yellow; */
+    position: relative;
+    z-index: 1;
 }
 
 .info h2 {
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
+    /* background-color: red; */
+    /* remove vertical space contribution of h2 by layering it over .info */
+    position: absolute;
+    z-index: 10;
+    /* for centering an absolute-position item */
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    top: 40px;
+    margin-top: 0;
+
 }
 
 .info-container {
     display: flex;
-    width: 75%;
+    /* width: 75%; */
     justify-content: center;
     gap: 40px;
     /* need to center the container */
-    margin: auto;
+    /* equal vertical margins */
+    margin: 120px auto;
 }
-
 
 /* instead of hardcoding image size, code the card size? */
     /* doesn't work: the div collapses in height */
@@ -165,6 +183,7 @@ Quote text                  36px light italic
     background-color: #e5e7eb; 
     /* Set top & bottom padding to constant; L&R padding to a percentage of total page width */
     padding: 100px 25%;
+    margin: 0;
 }
 
 .quote-block {
@@ -182,7 +201,7 @@ Quote text                  36px light italic
 /* CTA section styling */
 .cta-banner {
     background-color: #3882f8;
-    border-radius: 3px;
+    border-radius: 5px;
     color: white;
     /* Consistent 75% width */
     width: 75%;
