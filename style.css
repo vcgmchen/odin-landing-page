@@ -55,6 +55,7 @@ body {
 
 .header>* {width: 900px;}
 
+/* Nav Bar */
 .nav {
     display: flex;
     justify-content: space-between;
@@ -75,6 +76,7 @@ body {
     margin: 0px;
 }
 
+/* Hero Section */
 .hero {
     display: flex;
     padding: 100px 0;
@@ -90,7 +92,11 @@ body {
     font-weight: 900;
 }
 
-.hero-text {color: #e5e7eb; font-size: 18px; margin-top: 0;}
+.hero-text {
+    color: #e5e7eb; 
+    font-size: 18px; 
+    margin-top: 0;
+}
 
 button {
     background-color: #3882f8;
@@ -115,14 +121,18 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 30px;
-    height: 400px;
+    height: 450px;
+    position: relative;
 }
 
-.info-header {
+.info-title {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    position: absolute;
+    top: 10px;
 }
 
 .info-container {
@@ -161,6 +171,7 @@ button {
 .quote-container {
     width: 700px;
     color: #1f2937;
+    position: relative;
 }
 
 .quote-block {
@@ -171,11 +182,14 @@ button {
 }
 
 .quote-author {
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex; */
+    /* justify-content: flex-end; */
     font-weight: bold;
     margin: 0;
     font-size: 18px;
+    position: absolute;
+    right: 0px;
+    /* text-align: right; */
 }
 
 /*** CTA ***/
@@ -199,15 +213,9 @@ h4 {
     margin: 0px 0px 6px;
     font-size: 20px;
 }
-h4~p {
-    margin: 0px;
-}
 
-.cta-banner button {
-    border: solid 2px white;
-
-}
-
+h4~p {margin: 0px;}
+.cta-banner button {border: solid 2px white;}
 
 /*** FOOTER ***/
 .footer {
