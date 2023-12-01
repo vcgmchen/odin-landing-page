@@ -136,12 +136,12 @@ button {
 .card-text {
     text-align: center;
     margin: 10px 0px;
-    width: 125px;
     font-size: smaller;
+    width: 150px
 }
 
 .card-img {
-    border: 5px solid #3882f8;
+    border: 3px solid #3882f8;
     height: 150px;
     width: 150px;
     border-radius: 10%;
