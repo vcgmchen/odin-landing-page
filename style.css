@@ -53,13 +53,14 @@ body {
     align-items: center;
 }
 
-.header>* {width: 800px;}
+.header>* {width: 900px;}
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    margin-top: 20px;
 }
 
 #logo {color: #f9faf8; font-size: 24px; font-weight: bold;}
@@ -71,6 +72,7 @@ body {
     padding:  0;
     gap: 25px;
     font-size: 18px;
+    margin: 0px;
 }
 
 .hero {
@@ -95,7 +97,7 @@ button {
     border: none;
     border-radius: 8px;
     color: white;
-    padding: 10px 32px;
+    padding: 8px 32px;
     font-weight: bold;
 }
 
@@ -125,7 +127,7 @@ button {
 
 .info-container {
     display: flex;
-    width: 600px;
+    width: 700px;
     justify-content: space-between;
     margin: 10px;
 }
@@ -139,9 +141,9 @@ button {
 }
 
 .card-img {
-    border: 3px solid #3882f8;
-    height: 125px;
-    width: 125px;
+    border: 5px solid #3882f8;
+    height: 150px;
+    width: 150px;
     border-radius: 10%;
     margin: auto;
 }
@@ -157,7 +159,7 @@ button {
 }
 
 .quote-container {
-    width: 600px;
+    width: 700px;
     color: #1f2937;
 }
 
@@ -165,7 +167,7 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    margin: 0;
+    margin: 0px 0px 20px;
 }
 
 .quote-author {
@@ -173,8 +175,39 @@ button {
     justify-content: flex-end;
     font-weight: bold;
     margin: 0;
+    font-size: 18px;
 }
+
 /*** CTA ***/
+.cta {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.cta-banner {
+    background-color: #3882f8;
+    padding: 50px 100px;
+    color: white;
+    width: 900px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h4 {
+    margin: 0px 0px 6px;
+    font-size: 20px;
+}
+h4~p {
+    margin: 0px;
+}
+
+.cta-banner button {
+    border: solid 2px white;
+
+}
+
 
 /*** FOOTER ***/
 .footer {
