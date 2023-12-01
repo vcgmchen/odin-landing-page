@@ -33,11 +33,89 @@ Hero secondary text:        18px
 Info header text:           36px extra-bold
 Quote text                  36px light italic
 -------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
 }
 
-* {
-    box-sizing: border-box;
+/*** HEADER ***/
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header>* {width: 800px;}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+#logo {color: #f9faf8; font-size: 24px; font-weight: bold;}
+.nav a {text-decoration: none; color: #e5e7eb;}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding:  0;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    padding: 100px 0;
+    gap: 40px;
+}
+
+.hero>* {flex:1;}
+
+.hero-title {
+    margin: 0; 
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {color: #e5e7eb; font-size: 18px; margin-top: 0;}
+
+button {
+    background-color: #3882f8;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 32px;
+    font-weight: bold;
+}
+
+.hero-img {
+    background-color: rgb(125, 136, 146);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*** INFO ***/
+
+/*** QUOTE ***/
+/*** CTA ***/
+/*** FOOTER ***/
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
