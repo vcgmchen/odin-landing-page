@@ -109,6 +109,42 @@ button {
 }
 
 /*** INFO ***/
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 400px;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-img {
+    border: 3px solid #3882f8;
+    height: 125px;
+    width: 125px;
+    border-radius: 10%;
+    flex: 1 0 auto;
+    margin: 8px;
+}
 
 /*** QUOTE ***/
 /*** CTA ***/
