@@ -38,7 +38,7 @@ Quote text                  36px light italic
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -147,7 +147,35 @@ button {
 }
 
 /*** QUOTE ***/
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote-container {
+    width: 600px;
+    color: #1f2937;
+}
+
+.quote-block {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin: 0;
+}
 /*** CTA ***/
+
 /*** FOOTER ***/
 .footer {
     background-color: #1f2937;
